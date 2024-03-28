@@ -73,7 +73,7 @@ function playGame(){
     if(playerScore > computerScore){
         console.log("Player won "+ playerScore + " to " + computerScore)
     }else{
-        console.log("Compuer won " + computerScore+ " to " + playerScore)
+        console.log("Compuetr won " + computerScore+ " to " + playerScore)
     }
 };
-console.log(playGame())
+playGame()
